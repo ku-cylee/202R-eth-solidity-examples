@@ -1,0 +1,25 @@
+{
+  "name": "solidity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "inittruf": "truffle init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ku-cylee/202R-eth-solidity-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ku-cylee/202R-eth-solidity-examples/issues"
+  },
+  "homepage": "https://github.com/ku-cylee/202R-eth-solidity-examples#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ethereumjs-wallet": "^1.0.1",
+    "truffle-wallet-provider": "0.0.5"
+  }
+}
