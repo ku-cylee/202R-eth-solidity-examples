@@ -32,7 +32,7 @@ contract Faucet is mortal {
         emit Withdrawal(msg.sender, withdraw_amount);
     }
     
-    function () public payable {
+    function () external payable {
         emit Deposit(msg.sender, msg.value);
     }
 }
