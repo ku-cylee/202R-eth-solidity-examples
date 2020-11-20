@@ -4,7 +4,7 @@ module.exports = {
       network_id: "*",
       host: "localhost",
       port: 8545,
-    }
+    },
   },
   compilers: {
     solc: {
@@ -12,9 +12,9 @@ module.exports = {
       settings: {
        optimizer: {
          enabled: false,
-         runs: 200
+         runs: 200,
        },
-      }
-    }
-  }
+      },
+    },
+  },
 };
